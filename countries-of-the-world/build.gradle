@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '1.4.3.RELEASE'
+}
+
+group 'com.imprender.project5countries'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.2.6.RELEASE'
+    compile 'org.thymeleaf.extras:thymeleaf-extras-java8time:2.1.0.RELEASE'
+}
